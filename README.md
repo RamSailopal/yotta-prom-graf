@@ -6,7 +6,7 @@
 
 ![Alt text](yottadb-graf.PNG?raw=true "YottaDB unit test runner Dashboard")
 
-The code in this repo allows for the integration of an YottaDB environment with Prometheus/Grafana.
+The code in this repo allows for the integration of a YottaDB environment with Prometheus/Grafana.
 
 The solutions harnesses Yottadb's $ZJOBEXAM function to output environment debug/performance statistics to a file for conversion to a Prometheus "scraper" before metrics are displayed in Grafana.
 
