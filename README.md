@@ -79,7 +79,7 @@ There are two options for creating a baseline profile:
 
 1) Modifying the file directly - Taking the example baseline contents:
 
-    GLD:/root/.yottadb/r1.30_x86_64/g/yottadb.gld,REG:DEFAULT,SET:0,KIL:0,GET:1000,DTA:0,ORD:0,ZPR:0,QRY:0,LKS:0,LKF:0,CTN:0,DRD:0,DWT:0,NTW:0,NTR:1001,NBW:0,NBR:2002,NR0:0,NR1:0,NR2:0,NR3:0,TTW:0,TTR:0,TRB:0,TBW:0,TBR:0,TR0:0,TR1:0,TR2:0,TR3:0,TR4:0,TC0:0,TC1:0,TC2:0,TC3:0,TC4:0,ZTR:0,DFL:0,DFS:0,JFL:0,JFS:0,JBB:0,JFB:0,JFW:0,JRL:0,JRP:0,JRE:0,JRI:0,JRO:0,JEX:0,DEX:0,CAT:0,CFE:0,CFS:0,CFT:0,CQS:0,CQT:0,CYS:0,CYT:0,BTD:0
+         GLD:/root/.yottadb/r1.30_x86_64/g/yottadb.gld,REG:DEFAULT,SET:0,KIL:0,GET:1000,DTA:0,ORD:0,ZPR:0,QRY:0,LKS:0,LKF:0,CTN:0,DRD:0,DWT:0,NTW:0,NTR:1001,NBW:0,NBR:2002,NR0:0,NR1:0,NR2:0,NR3:0,TTW:0,TTR:0,TRB:0,TBW:0,TBR:0,TR0:0,TR1:0,TR2:0,TR3:0,TR4:0,TC0:0,TC1:0,TC2:0,TC3:0,TC4:0,ZTR:0,DFL:0,DFS:0,JFL:0,JFS:0,JBB:0,JFB:0,JFW:0,JRL:0,JRP:0,JRE:0,JRI:0,JRO:0,JEX:0,DEX:0,CAT:0,CFE:0,CFS:0,CFT:0,CQS:0,CQT:0,CYS:0,CYT:0,BTD:0
     
   
  Given the example creates GET calls and the existing baseline is 1000 calls, we would be changing GET:1000 to what ever baseline is deemed acceptable i.e GET:500
@@ -87,7 +87,7 @@ There are two options for creating a baseline profile:
 
 2) The second option would be to copy an existing JOBEXAM file i.e YDB_JOBEXAM.ZSHOW_DMP_1994_1 to the baseline directory in the format outlined above. So for the example test routine testing GET calls:
 
-     cp YDB_JOBEXAM.ZSHOW_DMP_1994_1 baseline/GET_TESTROUT
+       cp YDB_JOBEXAM.ZSHOW_DMP_1994_1 baseline/GET_TESTROUT
 
 
 # Grafana
