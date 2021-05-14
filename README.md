@@ -36,11 +36,13 @@ Ensure that the ydb executable is executable via the system path and so ensure t
     
 Run the prometheus web scraper process with:
    
-    ./ydbstat.sh 
+    ./ydbstat.sh start
    
 This will ask you for the port to run the scraper on. To avoid this question, set the environmental variable YOTTA_PROM_PORT to the port required i.e.
 
     export YOTTA_PROM_PORT="8001"
+    
+The scraper process can later be stopped by passing the parameter "stop". The status of the process can also be observed with "status"
     
 Add the contents of prometheus.yml to your existing Prometheus configuration, changing the target address and port accordingly
 
