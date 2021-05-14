@@ -57,7 +57,7 @@ As an optional step, you follow the same process for the example test runner rou
      cp examples/TESTROUT.m /home/yottadbuser/.yottadb/r1.30_x86_64/r
      ZL "TESTROUT.m"
     
-Run the test runner process with the a given routine i.e. the example routine:
+Run the test runner process with a given routine i.e. the example routine:
 
      ./tstrunner.sh "GET^TESTROUT(5000)" 1 1
      
