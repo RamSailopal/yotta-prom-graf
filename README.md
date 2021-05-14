@@ -44,6 +44,8 @@ This will ask you for the port to run the scraper on. To avoid this question, se
     
 The scraper process can later be stopped by passing the parameter "stop". The status of the process can also be observed with "status"
     
+
+
 Add the contents of prometheus.yml to your existing Prometheus configuration, changing the target address and port accordingly
 
 Add the _TSTRUNNER.m routine to your existing YottaDB environment through adding it to the routines directory i.e:
