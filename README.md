@@ -38,7 +38,7 @@ Run the prometheus web scraper process with:
    
    ./ydbstat.sh 
    
-This will ask you for the port to run the scraper on. To avoid the question, set the environmental variable YOTTA_PROM_PORT to the port required i.e.
+This will ask you for the port to run the scraper on. To avoid this question, set the environmental variable YOTTA_PROM_PORT to the port required i.e.
 
     export YOTTA_PROM_PORT="8001"
     
