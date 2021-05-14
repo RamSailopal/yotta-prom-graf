@@ -42,7 +42,7 @@ This will ask you for the port to run the scraper on. To avoid this question, se
 
     export YOTTA_PROM_PORT="8001"
     
-Add the contents of prometheus.yml to your existing Prometheus configuration changing the target address and port accordingly
+Add the contents of prometheus.yml to your existing Prometheus configuration, changing the target address and port accordingly
 
 Add the _TSTRUNNER.m routine to your existing YottaDB environment through adding it to the routines directory i.e:
 
