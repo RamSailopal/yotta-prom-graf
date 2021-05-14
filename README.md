@@ -76,6 +76,8 @@ These are just 3 of the metrics that are scraped by Prometheus. Details of the f
 
 https://docs.yottadb.com/ProgrammersGuide/commands.html#zshow
 
+The labels for each metric will display the job id of the test runner, the routine run by the test runner and the line label executed also.
+
     
 
     
