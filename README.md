@@ -13,7 +13,7 @@ The solutions harnesses Yottadb's $ZJOBEXAM function to output environment debug
 
 # Use Case
 
-A typical use case would be in the unit testing a Yottadb "backend" process as part of continuous integration pipeline. A baseline, tollerable profile of the process "footprint" can be charted against actual performance and visually assessed in Grafana 
+A typical use case would be in the unit testing of a Yottadb "backend" process as part of continuous integration pipeline. A baseline, tollerable profile of the process "footprint" can be charted against actual performance and visually assessed in Grafana 
 
 
 # Prerequisites
