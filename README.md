@@ -85,7 +85,7 @@ There are two options for creating a baseline profile:
  Given the example creates GET calls and the existing baseline is 1000 calls, we would be changing GET:1000 to what ever baseline is deemed acceptable i.e GET:500
  
 
-2) The second option would be to copy an existing JOBEXAM file i.e YDB_JOBEXAM.ZSHOW_DMP_1994_1 to the baseline directory inthe format outlined above. So for the example test routine testing GET calls:
+2) The second option would be to copy an existing JOBEXAM file i.e YDB_JOBEXAM.ZSHOW_DMP_1994_1 to the baseline directory in the format outlined above. So for the example test routine testing GET calls:
 
      cp YDB_JOBEXAM.ZSHOW_DMP_1994_1 baseline/GET_TESTROUT
 
