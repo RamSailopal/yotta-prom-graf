@@ -54,12 +54,12 @@ Add the _TSTRUNNER.m routine to your existing YottaDB environment through adding
      
 Compile the routine within ydb:
 
-     ZL "_TSTRUNNER.m"
+     ZLINK "_TSTRUNNER.m"
      
 As an optional step, you follow the same process for the example test runner routine:
 
      cp examples/TESTROUT.m /home/yottadbuser/.yottadb/r1.30_x86_64/r
-     ZL "TESTROUT.m"
+     ZLINK "TESTROUT.m"
     
 Run the test runner process with a given routine i.e. the example routine:
 
