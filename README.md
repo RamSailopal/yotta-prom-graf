@@ -92,7 +92,7 @@ There are two options for creating a baseline profile:
 
 # Grafana
 
-An example dashboard showing metrics relating to global sets, gets and orders, as in the example image can be shown by importing the dashboard file examples/Yottadb-grafana.json.
+An example dashboard showing metrics relating to global sets, gets and orders (example image above) can be shown by importing the dashboard file examples/Yottadb-grafana.json directly from the Grafana UI.
 
 These are just 3 of the metrics that are scraped by Prometheus. Details of the full range of metrics can be found under the MNEMONICS/DESCRIPTION section here:
 
