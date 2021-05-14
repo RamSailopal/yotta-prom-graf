@@ -18,7 +18,7 @@ A typical use case would be in the unit testing of a Yottadb "backend" process a
 
 # Prerequisites
 
-It is assumed that you have a functioning deployment of both Prometheus and Grafana with Prometheus able to "scape" metrics and Grafana able to see the scraped metric through the Prometheus plugin.
+It is assumed that you have a functioning deployment of both Prometheus and Grafana with Prometheus able to "scape" metrics and Grafana able to see the scraped metrics through the Prometheus plugin.
 
 The Prometheus-client Python library will also be required:
 
