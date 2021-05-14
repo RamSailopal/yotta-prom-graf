@@ -36,7 +36,7 @@ Ensure that the ydb executable is executable via the system path and so ensure t
     
 Run the prometheus web scraper process with:
    
-   ./ydbstat.sh 
+    ./ydbstat.sh 
    
 This will ask you for the port to run the scraper on. To avoid this question, set the environmental variable YOTTA_PROM_PORT to the port required i.e.
 
