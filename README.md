@@ -22,7 +22,7 @@ It is assumed that you have a functioning deployment of both Prometheus and Graf
 
 The Prometheus-client Python library will also be required:
 
-https://pypi.org/project/prometheus-client/0.0.9/
+https://pypi.org/project/prometheus-client
 
 Ensure that the ydb executable is executable via the system path and so ensure that there is a symbolic link between the localised executable and one of the system paths i.e.
 
